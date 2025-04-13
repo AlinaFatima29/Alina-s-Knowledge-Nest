@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alina’s Study Tracker</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Header Section -->
+  <header>
+    <div class="logo">Alina’s Study Tracker</div>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Notes Shop</a></li>
+        <li><a href="#">Tracker</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Main Section (Notes Tracker) -->
+  <main>
+    <section class="tracker-section">
+      <h1>My Study Tracker</h1>
+      <table class="tracker-table">
+        <thead>
+          <tr>
+            <th>Subject</th>
+            <th>Chapter</th>
+            <th>Progress</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Biology</td>
+            <td>Human Reproduction</td>
+            <td><progress value="70" max="100"></progress></td>
+          </tr>
+          <tr>
+            <td>Chemistry</td>
+            <td>Electrochemistry</td>
+            <td><progress value="50" max="100"></progress></td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- NCERT Highlight Section -->
+    <section class="ncert-highlight-section">
+      <h2>NCERT Highlights</h2>
+      <p>Explore the key chapters and concepts from the NCERT textbooks that will help you excel in your studies.</p>
+      <div class="highlight-books">
+        <div class="book">
+          <img src="ncert-biology.jpg" alt="Biology - Human Reproduction">
+          <h3>Biology - Human Reproduction</h3>
+          <a href="#">View Notes</a>
+        </div>
+        <div class="book">
+          <img src="ncert-chemistry.jpg" alt="Chemistry - Electrochemistry">
+          <h3>Chemistry - Electrochemistry</h3>
+          <a href="#">View Notes</a>
+        </div>
+        <!-- Add more books as needed -->
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer Section -->
+  <footer>
+    <p>&copy; 2025 Alina's Study Tracker | Follow me on <a href="#">Instagram</a> | <a href="#">Contact</a></p>
+  </footer>
+</body>
+</html>
